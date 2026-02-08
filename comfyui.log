@@ -1,0 +1,36 @@
+🎨 ComfyUI 시작: http://172.21.16.86:8188
+Checkpoint files will always be loaded safely.
+WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+Found comfy_kitchen backend cuda: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+Total VRAM 6144 MB, total RAM 7877 MB
+pytorch version: 2.7.1+cu118
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA GeForce GTX 1060 : cudaMallocAsync
+Using async weight offloading with 2 streams
+Enabled pinned memory 7483.0
+Using pytorch attention
+Python version: 3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]
+ComfyUI version: 0.12.3
+****** User settings have been changed to be stored on the server instead of browser storage. ******
+****** For multi-user setups add the --multi-user CLI argument to enable multiple user profiles. ******
+ComfyUI frontend version: 1.38.13
+[Prompt Server] web root: /home/ymim/video-pipeline/comfyui-standalone/venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+
+Import times for custom nodes:
+   0.0 seconds: /home/ymim/video-pipeline/comfyui-standalone/custom_nodes/websocket_image_save.py
+
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+Running upgrade  -> 0001_assets, Initial assets schema
+Revision ID: 0001_assets
+Revises: None
+Create Date: 2025-12-10 00:00:00
+Database upgraded from None to 0001_assets
+Assets scan(roots=['models']) completed in 0.046s (created=11, skipped_existing=0, orphans_pruned=0, total_seen=11)
+Starting server
+
+To see the GUI go to: http://0.0.0.0:8188
